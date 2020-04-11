@@ -7,6 +7,8 @@ public class Application {
 
         // Write the code here. You can run the code by 
         // selecting Run->Run File from the menu or by pressing Shift+F6
-
+        System.out.println("Text to be printed");
+System.out.println("Text to be printed");
+System.out.println("Text to be printed");
     }
 }
