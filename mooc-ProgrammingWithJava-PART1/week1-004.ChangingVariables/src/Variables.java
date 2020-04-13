@@ -7,7 +7,7 @@ public class Variables {
         Scanner sc = new Scanner(System.in);
         System.out.println("Give a string : ");
         String message = sc.nextLine();
-        System.out.println(message);
+        System.out.println("You gave the message" + message);
         System.out.println("Give an integer : ");
         int value = sc.nextInt();
         System.out.println(value);
