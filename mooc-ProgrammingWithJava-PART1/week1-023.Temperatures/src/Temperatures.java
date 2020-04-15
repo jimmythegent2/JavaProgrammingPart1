@@ -15,5 +15,6 @@ public class Temperatures {
         value = 3;
         Graph.addNumber(value);
         // Remove or comment out these lines above before trying to run the tests.
+        //test
     }
 }
