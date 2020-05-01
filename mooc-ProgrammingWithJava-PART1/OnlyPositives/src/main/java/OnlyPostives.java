@@ -23,7 +23,7 @@ public class OnlyPostives {
             int input = reader.nextInt();
                 if (input > 0){
                 
-                System.out.println(Math.pow(input,2));
+                System.out.println(input * input);
                 continue;
                 }
                 if (input < 0){
