@@ -12,22 +12,18 @@ import java.util.Scanner;
 public class Methods {
     public static void main (String args[]){
         
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("How many times?");
-        int numOfTimes = Integer.valueOf(scanner.nextLine());
+        printUntilNumber(2);
         
-            for (int i = 1; i <= numOfTimes; i++){
-                
-            printText();
-            
         
-            
-    }
+        
+           
        
 }
     
-    public static void printText(){
-            System.out.println("In a hole in the ground there lived a method");
+    public static void printUntilNumber(int number){
+            
+            for(int i=number ; i>=1; i--)
+                System.out.println(i);
     }
     
 }
