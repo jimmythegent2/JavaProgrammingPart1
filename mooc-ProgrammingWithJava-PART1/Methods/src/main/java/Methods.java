@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Methods {
     public static void main (String args[]){
         
-        printUntilNumber(2);
+        divisibleByThreeInRange(2,10);
         
         
         
@@ -20,10 +20,15 @@ public class Methods {
        
 }
     
-    public static void printUntilNumber(int number){
+    public static void divisibleByThreeInRange(int beginning, double end){
             
-            for(int i=number ; i>=1; i--)
-                System.out.println(i);
+          for (int i = beginning; i<=end; i++){
+              if (i % 3 == 0){
+                  
+                  System.out.println(i);
+              }
+          }  
+        
     }
     
 }
